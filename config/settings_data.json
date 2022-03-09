@@ -102,15 +102,25 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "background-1",
               "link": ""
             }
+          },
+          "aa826f2e-0a5b-4ef3-9e93-95e63715b749": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Shipping over $99; 10% off on your first order",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "aa826f2e-0a5b-4ef3-9e93-95e63715b749"
         ],
         "settings": {
         }
