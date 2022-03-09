@@ -7,14 +7,15 @@
           "type": "heading",
           "settings": {
             "heading": "Explore 1000+ types of organic food from your local community",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Explore 1000+ types of organic food from your local community",
-            "text_style": "body"
+            "text": "Banner description",
+            "text_style": "subtitle"
           }
         },
         "button": {
@@ -48,53 +49,24 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "DEAL OF THE WEEK",
+        "title": "{{ section.settings.collection.title }}",
         "heading_size": "h2",
-        "collection": "all",
+        "collection": "deal-of-the-week",
         "products_to_show": 8,
         "columns_desktop": 4,
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "image_ratio": "adapt",
+        "show_view_all": true,
+        "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 12
       }
     },
     "collage": {
@@ -146,6 +118,35 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "multicolumn": {
@@ -204,10 +205,10 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
     "featured_collection",
     "collage",
     "video",
+    "rich_text",
     "multicolumn"
   ]
 }
