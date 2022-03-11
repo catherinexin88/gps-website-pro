@@ -1,125 +1,36 @@
 {
   "sections": {
-    "image_banner": {
+    "16469867476e9b0dfa": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "1646986747616c5efb-0": {
           "type": "heading",
           "settings": {
             "heading": "Explore 1000+ types of organic food from your local community",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "1646986747616c5efb-1": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Banner description",
+            "text": "Explore 1000+ types of organic food from your local community",
             "text_style": "subtitle"
           }
         },
-        "button": {
+        "1646986747616c5efb-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Start Exploring",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/scrumptious-brunch-setting.jpg",
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "right",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "1646983193e827c5f6": {
-      "type": "image-banner",
-      "blocks": {
-        "16469831930df5722d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "16469831930df5722d-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "16469831930df5722d-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_secondary_1": false
           }
         }
       },
       "block_order": [
-        "16469831930df5722d-0",
-        "16469831930df5722d-1",
-        "16469831930df5722d-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1646986039e0768067": {
-      "type": "image-banner",
-      "blocks": {
-        "1646986039cd2356e9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "1646986039cd2356e9-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "subtitle"
-          }
-        },
-        "1646986039cd2356e9-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false
-          }
-        }
-      },
-      "block_order": [
-        "1646986039cd2356e9-0",
-        "1646986039cd2356e9-1",
-        "1646986039cd2356e9-2"
+        "1646986747616c5efb-0",
+        "1646986747616c5efb-1",
+        "1646986747616c5efb-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/scrumptious-brunch-setting.jpg",
@@ -235,9 +146,7 @@
     }
   },
   "order": [
-    "image_banner",
-    "1646983193e827c5f6",
-    "1646986039e0768067",
+    "16469867476e9b0dfa",
     "collage",
     "featured_collection",
     "1646983355e1b30790"
