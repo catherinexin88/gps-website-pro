@@ -66,7 +66,7 @@
         "padding_bottom": 12
       }
     },
-    "1647004742bc8d5a1f": {
+    "16470049115b997102": {
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
@@ -88,6 +88,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -126,6 +127,7 @@
     },
     "1646983355e1b30790": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "164698335506c05adc-0": {
           "type": "featured_collection",
@@ -168,7 +170,7 @@
   "order": [
     "16469867476e9b0dfa",
     "featured_collection",
-    "1647004742bc8d5a1f",
+    "16470049115b997102",
     "collage",
     "1646983355e1b30790"
   ]
