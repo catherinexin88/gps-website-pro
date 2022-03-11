@@ -111,20 +111,19 @@
         "164698335506c05adc-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "deal-of-the-week"
+            "collection": "shop-ready-to-go"
           }
         },
         "164698335506c05adc-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "frontpage"
+            "collection": "find-local-greens"
           }
         },
         "164698335506c05adc-2": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "inspire-your-menu"
           }
         }
       },
@@ -134,9 +133,7 @@
         "164698335506c05adc-2"
       ],
       "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": false,
@@ -145,12 +142,33 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16470074415bc80784": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "collection": "best-seller",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
     }
   },
   "order": [
     "16469867476e9b0dfa",
     "16470049115b997102",
     "collage",
-    "1646983355e1b30790"
+    "1646983355e1b30790",
+    "16470074415bc80784"
   ]
 }
