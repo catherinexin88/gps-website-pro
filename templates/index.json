@@ -111,17 +111,18 @@
         "164698335506c05adc-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "deal-of-the-week"
           }
         },
         "164698335506c05adc-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "frontpage"
           }
         },
         "164698335506c05adc-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
