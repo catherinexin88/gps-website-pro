@@ -44,9 +44,51 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
+    },
+    "1647008529a8143d56": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "collection": "deal-of-the-week",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "1647008538d4f9d4a4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "collection": "best-seller",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
-    "16470081721cf43761"
+    "16470081721cf43761",
+    "1647008529a8143d56",
+    "1647008538d4f9d4a4"
   ]
 }
