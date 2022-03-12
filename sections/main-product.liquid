@@ -651,38 +651,6 @@
       "type": "@app"
     },
     {
-      "type": "text",
-      "name": "t:sections.main-product.blocks.text.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "text",
-          "default": "Text block",
-          "label": "t:sections.main-product.blocks.text.settings.text.label"
-        },
-        {
-          "type": "select",
-          "id": "text_style",
-          "options": [
-            {
-              "value": "body",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
-            },
-            {
-              "value": "subtitle",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
-            },
-            {
-              "value": "uppercase",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
-            }
-          ],
-          "default": "body",
-          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
-        }
-      ]
-    },
-    {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
       "limit": 1
@@ -728,7 +696,7 @@
         {
           "type": "checkbox",
           "id": "show_dynamic_checkout",
-          "default": true,
+          "default": false,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
         }
@@ -1037,7 +1005,7 @@
           "label": "t:sections.main-product.settings.gallery_layout.options__3.label"
         }
       ],
-      "default": "stacked",
+      "default": "thumbnail",
       "label": "t:sections.main-product.settings.gallery_layout.label"
     },
     {
@@ -1101,7 +1069,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "default": 12
     },
     {
       "type": "range",
@@ -1111,7 +1079,7 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "default": 12
     }
   ]
 }
